@@ -1,12 +1,12 @@
-# JTIDD Library
+# DupJS Library
 
 ## Introduction
 
-The JTIDD library allows you to automatically duplicate elements on a web page based on specified classes. This can be useful for dynamic content generation and testing.
+The DupJS library allows you to automatically duplicate elements on a web page based on specified classes. This can be useful for dynamic content generation and testing.
 
 ## Installation
 
-To use the JTIDD library in your project, follow these steps:
+To use the DupJs library in your project, follow these steps:
 
 1. **Include jQuery**
 
@@ -14,22 +14,22 @@ To use the JTIDD library in your project, follow these steps:
    ```html
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
    
-2. **Include JTIDD Library**
+2. **Include DupJs Library**
 
-   Include the JTIDD library in your HTML:
+   Include the DupJs library in your HTML:
    ```html
-   <script src="https://jtidd.pro/packages/lib/jtidd/1.0.0/jtidd.js"></script>
+   <script src="https://dup-js.imptech.pro/packages/lib/dup-js/1.0.0/dup-js.js"></script>
 
 ## Usage
 
-After including the JTIDD library, you can use it as follows:
+After including the DupJs library, you can use it as follows:
 
 1. **HTML Markup**
 
     Use classes to specify duplication behavior:
     
      ```html
-     <div class="classname jtidd jt-5">
+     <div class="classname dupjs dj-5">
         <p>This element will be duplicated 5 times</p>
      </div>
     ```
@@ -37,36 +37,36 @@ After including the JTIDD library, you can use it as follows:
     For random duplication (between 1 and 21 times), use the class jt-auto:
   
     ```html
-   <div class="classname jtidd jt-auto">
+   <div class="classname dupjs dj-auto">
       <p>This element will be duplicated a random number of times between 1 and 21</p>
     </div>
     ```
     
 2. **Initialize the Library**
      
-    Call the jtidd.init() function to apply duplication:
+    Call the dupjs.init() function to apply duplication:
 
     ```html
      <script>
         $(document).ready(function() {
-            jtidd.init();
+            dupjs.init();
         });
     </script>
     ```
 
 ## Usage
-Here are some examples of how you can use JTIDD library:
+Here are some examples of how you can use DupJs library:
 
    ```html
-   <div class="jtidd jt-3">
+   <div class="dupjs dj-3">
       <p>This element will be duplicated 3 times</p>
   </div>
   
-  <div class="jtidd jt-auto">
+  <div class="jtidd dj-auto">
       <p>This element will be duplicated a random number of times between 1 and 21</p>
   </div>
    ```
 
 ## Notes
 
-Ensure that jQuery is loaded before the JTIDD library to avoid any errors.
+Ensure that jQuery is loaded before the DupJs library to avoid any errors.
