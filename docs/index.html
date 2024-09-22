@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dup-Js Library Documentation - A library for automatically duplicating elements on a web page based on specified classes.">
-    <meta name="keywords" content="JTIDD, JavaScript library, duplication, jQuery, web development">
-    <meta name="author" content="Jtidd">
-    <meta property="og:title" content="Dup-Js Library Documentation">
-    <meta property="og:description" content="Dup-Js Library for automatically duplicating elements based on specified classes.">
-    <meta property="og:image" content="./assets/images/dup-js.png">
-    <meta property="og:url" content="./assets/images/dup-js.png">
+    <meta name="description" content="DupJs Library Documentation - A library for automatically duplicating elements on a web page based on specified classes.">
+    <meta name="keywords" content="DupJs, JavaScript library, duplication, jQuery, web development">
+    <meta name="author" content="DupJs">
+    <meta property="og:title" content="DupJs Library Documentation">
+    <meta property="og:description" content="DupJs Library for automatically duplicating elements based on specified classes.">
+    <meta property="og:image" content="./assets/images/dupjs.png">
+    <meta property="og:url" content="./assets/images/dupjs.png">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Dup-Js Library Documentation">
-    <meta name="twitter:description" content="Dup-Js Library for automatically duplicating elements based on specified classes.">
-    <meta name="twitter:image" content="./assets/images/dup-js.png">
+    <meta name="twitter:title" content="DupJs Library Documentation">
+    <meta name="twitter:description" content="DupJs Library for automatically duplicating elements based on specified classes.">
+    <meta name="twitter:image" content="./assets/images/dupjs.png">
     <link rel="icon" href="./assets/images/dup-js.ico" type="image/x-icon">
-    <title>Dup-Js Library Documentation</title>
+    <title>DupJs Library Documentation</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486737668365116"
         crossorigin="anonymous"></script>
@@ -104,10 +104,10 @@
 <body>
 
     <header>
-        <h1>Dup-Js Library Documentation</h1>
+        <h1>DupJs Library Documentation</h1>
         <nav>
-            <a href="https://dup-js.imptech.pro/packages/lib/jtidd/1.0.0/jtidd.js" target="_blank">Download Package</a>
-            <a href="https://github.com/huanth/jtidd-library" target="_blank">GitHub</a>
+            <a href="https://dupjs.imptech.pro/packages/lib/dupjs/1.0.0/dupjs.js" target="_blank">Download Package</a>
+            <a href="https://github.com/huanth/dupjs-library" target="_blank">GitHub</a>
             <a href="https://jsfiddle.net/huanth/9km7grwt/1/" target="_blank">Demo</a>
         </nav>
     </header>
@@ -115,12 +115,12 @@
     <div class="container">
         <section>
             <h2>Introduction</h2>
-            <p>The Dup-Js library allows you to automatically duplicate elements on a web page based on specified classes. This can be useful for dynamic content generation and testing.</p>
+            <p>The DupJs library allows you to automatically duplicate elements on a web page based on specified classes. This can be useful for dynamic content generation and testing.</p>
         </section>
 
         <section>
             <h2>Installation</h2>
-            <p>To use Dup-Js library in your project, follow these steps:</p>
+            <p>To use DupJs library in your project, follow these steps:</p>
             <ol>
                 <li>
                     <strong>Include jQuery</strong>
@@ -128,34 +128,34 @@
                     <pre><code>&lt;script src="https://code.jquery.com/jquery-3.6.0.min.js"&gt;&lt;/script&gt;</code></pre>
                 </li>
                 <li>
-                    <strong>Include Dup-Js Library</strong>
-                    <p>Include the Dup-Js library in your HTML:</p>
-                    <pre><code>&lt;script src="https://dup-js.imptech.pro/packages/lib/dup-js/1.0.0/dup-js.js"&gt;&lt;/script&gt;</code></pre>
+                    <strong>Include DupJs Library</strong>
+                    <p>Include the DupJs library in your HTML:</p>
+                    <pre><code>&lt;script src="https://dupjs.imptech.pro/packages/lib/dupjs/1.0.0/dupjs.js"&gt;&lt;/script&gt;</code></pre>
                 </li>
             </ol>
         </section>
 
         <section>
             <h2>Usage</h2>
-            <p>After including the Dup-Js library, you can use it as follows:</p>
+            <p>After including the DupJs library, you can use it as follows:</p>
             <ol>
                 <li>
                     <strong>HTML Markup</strong>
                     <p>Use classes to specify duplication behavior:</p>
-                    <pre><code>&lt;div class="classname jtidd jt-5"&gt;
+                    <pre><code>&lt;div class="classname dupjs dj-5"&gt;
     &lt;p&gt;This element will be duplicated 5 times&lt;/p&gt;
 &lt;/div&gt;</code></pre>
                     <p>For random duplication (between 1 and 21 times), use the class <code>jt-auto</code>:</p>
-                    <pre><code>&lt;div class="classname jtidd jt-auto"&gt;
+                    <pre><code>&lt;div class="classname dupjs dj-auto"&gt;
     &lt;p&gt;This element will be duplicated a random number of times between 1 and 21&lt;/p&gt;
 &lt;/div&gt;</code></pre>
                 </li>
                 <li>
                     <strong>Initialize the Library</strong>
-                    <p>Call the <code>jtidd.init()</code> function to apply duplication:</p>
+                    <p>Call the <code>dupjs.init()</code> function to apply duplication:</p>
                     <pre><code>&lt;script&gt;
     $(document).ready(function() {
-        jtidd.init();
+        dupjs.init();
     });
 &lt;/script&gt;</code></pre>
                 </li>
@@ -164,19 +164,19 @@
 
         <section>
             <h2>Examples</h2>
-            <p>Here are some examples of how you can use Dup-Js library:</p>
-            <pre><code>&lt;div class="jtidd jt-3"&gt;
+            <p>Here are some examples of how you can use DupJs library:</p>
+            <pre><code>&lt;div class="dupjs dj-3"&gt;
     &lt;p&gt;This element will be duplicated 3 times&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div class="jtidd jt-auto"&gt;
+&lt;div class="dupjs dj-auto"&gt;
     &lt;p&gt;This element will be duplicated a random number of times between 1 and 21&lt;/p&gt;
 &lt;/div&gt;</code></pre>
         </section>
 
         <section>
             <h2>Notes</h2>
-            <p>Ensure that jQuery is loaded before the Dup-Js library to avoid any errors.</p>
+            <p>Ensure that jQuery is loaded before the DupJs library to avoid any errors.</p>
         </section>
 
         <section>
@@ -187,7 +187,7 @@
     </div>
 
     <footer>
-        <p>&copy; 2024 Dup-Js Library. All rights reserved.</p>
+        <p>&copy; 2024 DupJs Library. All rights reserved.</p>
     </footer>
 
 </body>
